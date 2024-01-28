@@ -1,0 +1,132 @@
+[
+    {
+        "id": 1,
+        "title": "Laptop Dell Inspiron 14 5430 R1605S",
+        "price": "SEE DETAILS",
+        "image": "images/computer.png",
+        "viewProducts": "/computer0",
+        "link": "/compare1"
+    },
+    {
+        "id": 1,
+        "title": "ASUS Vivobook 15 OLED A1505 (2023)",
+        "price": "SEE DETAILS",
+        "image": "images/computer-1.png",
+        "viewProducts": "/computer1",
+        "link": "/compare2"
+    },
+    {
+        "id": 1,
+        "title": "Macbook Pro 16 inch Apple M3 Pro",
+        "image": "images/computer-2.png",
+        "price": "SEE DETAILS",
+        "viewProducts": "/computer2",
+        "link": "/compare3"
+    },
+    {
+        "id": 1,
+        "title": "Laptop MSI Gaming GF63 Thin 11UC ",
+        "image": "images/computer-3.png",
+        "price": "SEE DETAILS",
+        "viewProducts": "/computer3",
+        "link": "/compare4"
+    },
+    {
+        "id": 2,
+        "title": "AKKO 3098B Multi-modes Doll of the Princess mechanical keyboard",
+        "price": "SEE DETAILS",
+        "image": "images/keyboard.png",
+        "viewProducts": "/keyboard0",
+        "link": "/compare5"
+    },
+    {
+        "id": 2,
+        "title": "White Shark SHINOBI GK-2022 TKL Gaming",
+        "price": "SEE DETAILS",
+        "image": "images/keyboard-1.png",
+        "viewProducts": "/keyboard1",
+        "link": "/compare6"
+    },
+    {
+        "id": 2,
+        "title": "Keyboard AKKO 3087 V2 DS OCEAN STAR",
+        "price": "SEE DETAILS",
+        "image": "images/keyboard-2.png",
+        "viewProducts": "/keyboard2",
+        "link": "/compare7"
+    },
+    {
+        "id": 2,
+        "title": "DAREU EK87 Multi-Led Black Computer Keyboard",
+        "price": "SEE DETAILS",
+        "image": "images/keyboard-3.png",
+        "viewProducts": "/keyboard3",
+        "link": "/compare8"
+    },
+    {
+        "id": 3,
+        "title": "Rapoo M650 Lucky Cat Silent Bluetooth Mouse",
+        "price": "SEE DETAILS",
+        "image": "images/mouse.png",
+        "viewProducts": "/mouse0",
+        "link": "/compare9"
+    },
+
+    {
+        "id": 3,
+        "title": "Surface Pro Mouse – Arc Mouse ",
+        "price": "SEE DETAILS",
+        "image": "images/mouse-1.png",
+        "viewProducts": "/mouse1",
+        "link": "/compare10"
+    },
+    {
+        "id": 3,
+        "title": "Motospeed F405 Optical Gaming Mouse",
+        "price": "SEE DETAILS",
+        "image": "images/mouse-2.png",
+        "viewProducts": "/mouse2",
+        "link": "/compare11"
+    },
+    {
+        "id": 3,
+        "title": "Apple Magic Mouse 2 Genuine",
+        "price": "SEE DETAILS",
+        "image": "images/mouse-3.png",
+        "viewProducts": "/mouse3",
+        "link": "/compare12"
+    },
+
+    {
+        "id": 4,
+        "title": "Galaxy S24 Ultra 512GB New",
+        "price": "SEE DETAILS",
+        "image": "images/mobiles.png",
+        "viewProducts": "/mobiles0",
+        "link": "/compare13"
+    },
+    {
+        "id": 4,
+        "title": "Samsung Galaxy Z Fold5 5G",
+        "price": "SEE DETAILS",
+        "image": "images/mobiles-1.png",
+        "viewProducts": "/mobiles1",
+        "link": "/compare14"
+    },
+    {
+        "id": 4,
+        "title": "Samsung Galaxy Z Flip5 256GB ",
+        "price": "SEE DETAILS",
+        "image": "images/mobiles-2.png",
+        "viewProducts": "/mobiles2",
+        "link": "/compare15"
+    },
+    {
+        "id": 4,
+        "title": "Iphone 15 ProMax 1T GB",
+        "price": "SEE DETAILS",
+        "image": "images/mobiles-3.png",
+        "viewProducts": "/mobiles3",
+        "link": "/compare16"
+    }
+]

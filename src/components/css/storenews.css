@@ -1,0 +1,60 @@
+/* Storenews.css */
+
+.container-store-news {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.store-news-1 img {
+    height: 300px;
+    width: 300px;
+}
+.store-news-1 a {
+    color: black;
+    text-decoration: none;
+}
+.store-news-1 {
+    margin-right: 20px;
+}
+
+.store-news-2 img {
+    height: 100px;
+    width: 100px;
+}
+.store-news {
+    display: flex;
+    /* margin: 50px; */
+    /* margin-left: 194px; */
+}
+.title-new {
+    align-items: center; /* Center items horizontally */
+}
+
+.store-news-2 {
+    display: flex;
+    margin: 0 20px 20px;
+}
+.store-news-2 img {
+    margin-right: 10px;
+}
+.store-news-01 p {
+    width: 300px;
+}
+.store-news-2 h6, .store-news-01 h5 {
+    font-weight: bold;
+}
+.store-news-2 p {
+    position: relative;
+    width: 200px;
+}
+
+.title-new h2 {
+    text-align: center;
+    margin: 50px 0;
+    /* margin: 40px 0 0 145px; */
+}
+.store-news-2 a {
+    text-decoration: none;
+    color: #000;
+}

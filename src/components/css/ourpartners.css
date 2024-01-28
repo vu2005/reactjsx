@@ -1,0 +1,13 @@
+.icon-our {
+    margin: 50px;
+    justify-content: space-evenly   ;
+    display: flex;
+}
+.icon-our a {
+    text-decoration: none;
+    color: #adadad;
+}
+
+.our-icon-text {
+    text-align: center
+}

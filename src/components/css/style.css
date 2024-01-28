@@ -1,0 +1,119 @@
+.container-all h5 {
+    padding: 20px 0;
+}
+
+.images-right {
+    /* height: 100vh; */
+    background: #fff;
+    border: 1px solid #0000;
+    display: flex;
+    justify-content: center;
+    margin: 0 170px;
+}
+.parts-up p {
+    width: 450px;
+    margin-right: 50px;
+}
+.parts-text span {
+    color: #716d6d;
+    font-size: 16px;
+    /* margin: 0; */
+}
+.item-text {
+    color: red;
+    margin: 10px 0;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: sans-serif;
+    /* flex-wrap: wrap; */
+}
+
+.parts-images {
+    width: 450px;
+    height: 750px;
+    border: 1px solid #0000;
+}
+.parts-images img {
+    width: 400px;
+    height: 400px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.parts-up {
+    justify-content: space-between;
+    display: flex;
+    padding: 0;
+}
+.parts-up i {
+    font-size: 10px;
+    border: #716d6d;
+    padding: 2px;
+    color: green;
+}
+.parts-up p > i {
+    /* align-items: baseline; */
+    position: relative;
+    margin-right: 5px;
+    bottom: 2px;
+    border: 1px solid #000;
+}
+
+.parts-images h5 {
+    font-size: 18px;
+}
+.price .line {
+    text-decoration: line-through;
+    color: #adadad;
+}
+.price .famous {
+    color: red;
+    font-size: 28px;
+    font-weight: 500;
+}
+.evaluate i {
+    color: rgb(225, 225, 35);
+}
+.btn-hi {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.btn-red {
+    width: 250px;
+    background: #cc3300;
+    height: 50px;
+    text-align: center;
+    outline: none;
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+}
+.btn-red p {
+    margin: auto 0;
+
+}
+.btn-yellow {
+    margin-right: 10px;
+    width: 250px;
+    background: #ff9900;
+    border-radius: 5px;
+    font-weight: 500;
+    color: white;
+    height: 50px;
+    text-align: center;
+    outline: none;
+    border: none;
+}
+.parts-images .contactus {
+    text-align: center;
+    font-size: 18px;
+}
+.parts-images .contactus a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #cc3300;
+}
+.parts-images .contactus span {
+    font-size: 18px;
+}

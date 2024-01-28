@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+:root {
+    --primary-color: #4daf54;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    /* border: 1px solid #000; */
+    box-sizing: border-box;
+}
+.Productsimages {
+    width: 100%;
+    height: 500px;
+}
+.Productsimages img {
+    width: 100%;
+    height: 475px;
+    margin-bottom: 50px;
+    /* margin: 0 10px; */
+}
+.products {
+    display: flex;
+    justify-content: space-around;
+    font-family: "Poppins", sans-serif;
+    flex-wrap: wrap;
+}
+
+.product-card {
+    margin: 60px auto;
+    /* margin-bottom: 20px ; */
+    margin-right: 20px;
+    width: 320px;
+    height: 500px;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 40px 20px;
+    color: #000;
+    border: 0.2px solid #adadad;
+    box-shadow: 2px 2px 5px #888888;
+}
+
+.card__img {
+    width: 100%;
+    transition: 0.5s;
+}
+
+.card__img img {
+    width: 90%;
+    height: 222px;
+    margin: 0 auto;
+    object-fit: cover;
+    /* align-items: center; */
+    /* text-align: center; */
+    display: flex;
+    position: relative;
+    /* left: 25px; */
+    object-position: center;
+    transition: 0.5s;
+    cursor: pointer;
+    /* margin: 0; */
+}
+.card__img img:hover {
+    transform: scale(1.2);
+}
+.card__price {
+    text-align: center;
+    font-size: 28px;
+    margin: 20px 0;
+    color: forestgreen;
+}
+.card__action button {
+    padding: 10px 20px;
+    outline: none;
+    border: none;
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    border-radius: 20px;
+    font-weight: 600;
+    transition: 0.25s;
+}
+
+.card__action button:hover {
+    transform: scale(0.9);
+}
+
+.card__action {
+    display: flex;
+    justify-content: space-around;
+}
+.card__action button a {
+    text-decoration: none;
+    color: white;
+}
+.card__title {
+    text-align: center;
+}
+.product-card p {
+    font-size: 18px;
+}
+.products-h2 {
+    text-align: center;
+}
+h2 {
+    /* margin-top: 50px; */
+    text-align: center;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.card__price {
+  animation: blink 2s infinite;
+}
+.card__price a {
+    text-decoration: none;
+    color: forestgreen;
+    font-weight: 600;
+}

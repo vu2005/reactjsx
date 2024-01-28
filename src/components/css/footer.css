@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+:root {
+	--facebook-color: #3b5999;
+	--instagram-color: #e1306c;
+	--youtube-color: #de463b;
+	--twitter-color: #46c1f6;
+	--github-color: #333;
+}
+
+.footer-container {
+	height: 580px;
+	border: 1px solid #000;
+	display: flex;
+	justify-content: space-around	;
+	margin-top: 50px;
+	background-color: #333;
+}
+th {
+	color: white;
+}
+.footer-text {
+	margin-top: 100px;
+}
+.footer-gg-map {
+	margin-top: 100px;
+}
+.wrapper {
+	display: flex;
+	top: 150px;
+	position: relative;
+	
+}
+.logo-footer img {
+	margin-top: 80px;
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	margin-left: 80px;
+}
+
+.icon {
+	margin: 0 20px;
+	cursor: pointer;
+	position: relative;
+}
+
+.icon i {
+	height: 60px;
+	width: 60px;
+	border-radius: 50%;
+	background: #fff;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+	font-size: 25px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.logo-text {
+	margin-left: 50px;
+}
+.footer-input {
+	margin-top: 120px;
+}
+label {
+	color: green;
+}
+.footer-input input {
+	font-size: 28px;
+	border-radius: 20px;
+	border: none;
+	outline: none;
+	text-align: center;
+}
+.footer-input button {
+	bottom: 4px;
+	border-radius: 20px;
+	padding: 10px 30px;
+	margin-left: 20px;
+	background-color: #95ff8f;
+	outline: none;
+	position: relative;
+
+}
+.footer-input button:hover {
+	transform: scale(0.9);
+}
+
+.icon .tooltip {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	color: #fff;
+	padding: 10px 18px;
+	font-size: 20px;
+	font-weight: 500;
+	border-radius: 25px;
+	opacity: 0;
+	pointer-events: none;
+	box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.icon .tooltip:before {
+	position: absolute;
+	content: '';
+	height: 15px;
+	width: 15px;
+	left: 50%;
+	bottom: -6px;
+	transform: translateX(-50%) rotate(45deg);
+}
+
+.tooltip,
+.icon i {
+	transition: 0.3s;
+}
+
+.icon:hover .tooltip {
+	opacity: 1;
+	pointer-events: auto;
+	top: -70px;
+}
+
+.icon:hover i {
+	color: white;
+}
+
+.facebook .tooltip:before,
+.facebook:hover i,
+.facebook .tooltip {
+	background: var(--facebook-color);
+}
+.github .tooltip:before,
+.github:hover i,
+.github .tooltip {
+	background: var(--github-color);
+}
+.twitter .tooltip:before,
+.twitter:hover i,
+.twitter .tooltip {
+	background: var(--twitter-color);
+}
+.instagram .tooltip:before,
+.instagram:hover i,
+.instagram .tooltip {
+	background: var(--instagram-color);
+}
+.youtube .tooltip:before,
+.youtube:hover i,
+.youtube .tooltip {
+	background: var(--youtube-color);
+}
+button a {
+	color: #000;
+}

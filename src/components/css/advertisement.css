@@ -1,0 +1,12 @@
+.advertisement-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.advertisement-img img {
+    width: 1200px;
+    max-height: 100%;
+    margin: 100px;
+}

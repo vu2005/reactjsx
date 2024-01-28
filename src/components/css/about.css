@@ -1,0 +1,177 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    /* border: 1px solid #000; */
+}
+.about-all {
+    margin: 0 170px;
+}
+.about-philosophy {
+    margin-bottom: 16px;
+    text-align: center;
+    margin: 0 auto;
+    width: 800px;
+    margin-bottom: 40px;
+}
+.about-philosophy h1 {
+    font-size: 4rem;
+    font-weight: 900;
+    line-height: 1.12;
+    letter-spacing: -1.5px;
+}
+.about-img {
+    width: 100%;
+    /* border: 1px solid red; */
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+
+    display: flex;
+}
+.about-img-1 {
+    width: 800px;
+    height: 450px;
+    border: 2px solid #000;
+    border-radius: 5px;
+}
+.about-img-1 img {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+.about-text {
+    width: 100%;
+    height: 100%;
+}
+.about-text p,
+.about-text h4,
+.about-text h6 {
+    font-size: 25px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    width: 800px;
+    margin: 30px auto;
+}
+.about-text > .about-text h4 {
+    font-weight: 600;
+    font-size: 40px;
+}
+.about-us {
+    font-size: 25px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    width: 800px;
+    margin: 30px auto;
+    display: flex;
+}
+.about-us-text {
+    margin-left: 20px;
+    width: 453px;
+}
+.about-us-text h3,
+.about-us-text p {
+    width: 450px;
+}
+.about-us img {
+    height: 413px;
+    width: 327px;
+    border-radius: 5px;
+}
+.about-card {
+    height: 485px;
+    width: 550px;
+    border: 1px solid #adadad;
+    /* text-align: center; */
+    box-shadow: 0px 0px 11px 0px rgb(50 50 50 / 47%);
+}
+.about-card p {
+    width: 450px;
+    font-size: 1.3em;
+}
+.about-h2 h2 {
+    font-size: 3.5rem;
+    font-weight: 900;
+    width: 500px;
+    text-align: left;
+}
+.about-box {
+    justify-content: space-between;
+    width: 100%;
+    display: flex;
+    margin-top: 150px;
+    /* height: 100vh; */
+}
+.about-sub {
+    height: 100px;
+    /* border: 1px solid #000; */
+    width: 100px;
+    margin-left: 450px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 120px;
+}
+.about-sub span {
+    font-size: 9px;
+    font-weight: 600;
+    color: white;
+    width: 100%;
+    background: linear-gradient(#6627ff 0%, #0066cc 100%);
+    box-shadow: 0 3px 10px -5px rgba(0, 0, 0, 1);
+    display: flex;
+    text-align: center;
+    font-family: "museo-sans";
+    padding: 6px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    top: -24px;
+    right: -23px;
+    position: relative;
+    border-radius: 20px 20px 0 0;
+}
+.about-h4 {
+    margin-bottom: 40px;
+    text-align: center;
+    width: 450px;
+    margin: 0 auto;
+}
+.about-h4 h4 {
+    font: 1.4em sans-serif;
+    font-weight: 600;
+    width: 450px;
+}
+
+.about-input input {
+    border-radius: 50px;
+    text-align: center;
+    border: none;
+    /* line-height: 100%; */
+    outline: none;
+    border: 1px solid #adadad;
+    padding: 20px;
+    width: 450px;
+}
+.about-input {
+    margin: 0 auto;
+/* border: 1px solid #000; */
+    text-align: center;
+    margin-top: 40px;
+}
+.about-btn {
+    margin: 20px 0;
+    border-radius: 50px;
+    text-align: center;
+}
+.about-btn button {
+    background: #5f67ec;
+    color: white;
+    width: 450px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    border: 1px solid #adadad;
+    padding: 10px;
+}

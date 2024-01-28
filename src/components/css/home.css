@@ -1,0 +1,94 @@
+.carousel-caption {
+    position: relative !important;
+}
+
+.technology-store {
+    display: flex;
+    justify-content: space-evenly;
+    /* padding: 10px; */
+    margin-bottom: 50px;
+}
+.technology-store {
+    /* margin-left: 160px; */
+    justify-content: space-around;
+}
+.store p {
+    width: 470px;
+    height: 300px;
+}
+.icon-my-home {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 150px;
+}
+.row-home h1 {
+    position: relative;
+}
+
+.icon-info {
+    display: flex;
+}
+.btn.btn-button {
+    background: green;
+    color: white;
+}
+.row-home h1 {
+    text-align: center;
+}
+.row-home {
+    height: 400px;
+    width: 400px;
+    border-radius: 10px;
+}
+.row-home img {
+    height: 100%;
+    width: 100%;
+    transition: 0.25s;
+}
+.row-home img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+#button a {
+    text-decoration: none;
+    color: white;
+}
+#button :hover {
+    color: black;
+}
+
+.home-box {
+    height: 100%;
+    width: 250px;
+    /* border: 1px solid #000; */
+    justify-content: center;
+    align-items: center;
+    /* display: flex; */
+    margin: 0 auto;
+}
+.btn-text-home {
+    height: 55px;
+    background: green;
+    border-radius: 0 0 5px 5px;
+}
+
+.btn-text-home p {
+    color: white;
+    font-size: 28px;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.card-home img {
+    height: 195px;
+    width: 100%;
+}
+.row-home a {
+    text-decoration: none;
+}

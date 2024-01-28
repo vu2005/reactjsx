@@ -1,0 +1,171 @@
+[
+    {
+        "id": 1,
+        "title": "Product Details Dell Inspiron 5430 ",
+        "p": "Dell",
+        "h5": "Laptop Dell Inspiron 5430 Core i7-1360P RAM 16GB SSD 1TB 14-inch QHD+ Windows 11 - Silver",
+        "up": "18.900.000 ₫",
+        "down": "17.900.000 ₫",
+        "image": "images/computer.png"
+    },
+    {
+        "id": 2,
+        "title": "Product Details ASUS ViVoBook 15 OLED A1505 (2023)",
+        "p": "ASUS",
+        "image": "images/computer-1.png",
+        "up": "24.990.000 ₫",
+        "h5": "Laptop ASUS ViVoBook 15 OLED A1505VA-L1201W (Core i9-13900H/ 16GB/ 512GB SSD/ Intel Iris Xe Graphics/ 15.6inch FHD OLED/ Windows 11 Home/ Silver)",
+        "down": "20.990.000 ₫ "
+    },
+    {
+        "id": 3,
+        "title": "Product Details MacBook Pro 16 inch Apple M3 Pro",
+        "image": "images/computer-2.png",
+        "p": "Apple",
+        "h5": "MacBook Pro 2023 16 inch Apple M3 PRO 12-Core CPU 18-Core GPU 18GB RAM 512GB SSD – NEW",
+        "up": "60.000.000 ₫",
+        "down": "56.900.000 ₫"
+    },
+    {
+        "id": 4,
+        "title": "Product Details Laptop MSI Gaming GF63 Thin 11UC",
+        "image": "images/computer-3.png",
+        "p": "MSI",
+        "h5": "Laptop MSI Gaming GF63 Thin 11UC-1228VN i7-11800H/8GB/512GB/15.6FHD/GeForce RTX3050_4GB/Win11 ",
+        "up": "20.490.000 ₫",
+        "down": "18.490.000 ₫"
+    },
+
+    {
+        "id": 5,
+        "title": "Product Details AKKO 3098B Multi-modes Doll of the Princess mechanical keyboard",
+        "p": "AKKO",
+        "up": "2.199.000 ₫",
+        "h5": "Keyboard AKKO 3098B Multi-modes Doll of the Princess (Bluetooth 5.0 / Wireless 2.4Ghz / Hotswap / Foam tiêu âm / AKKO CS Jelly switch) ",
+        "down": "2.149.000 ₫",
+        "image": "images/keyboard.png",
+        "text": "General information",
+        "new": "New",
+        "bh": "12 Month",
+        "description": "Detailed Description"
+    },
+    {
+        "id": 6,
+        "title": "Product Details White Shark SHINOBI GK-2022 TKL Gaming",
+        "p": "SHARK",
+        "image": "images/keyboard-1.png",
+        "up": "500.000 ₫",
+        "h5": "White Shark GK-2022 SHINOBI 60% Mechanical Gaming Keyboard – Rainbow Backlight – Blue Switch | White",
+        "down": "450.000 ₫",
+        "text": "General information",
+        "new": "New",
+        "bh": "12 Month",
+        "description": "Detailed Description"
+    },
+    {
+        "id": 7,
+        "title": "Product Details of AKKO 3087 V2 DS OCEAN STAR Mechanical Keyboard",
+        "p": "AKKO",
+        "image": "images/keyboard-2.png",
+        "up": "1.399.000 ₫",
+        "h5": "Keyboard AKKO 3087 v2 DS Ocean Star Akko V3 Switch Cream Blue ",
+        "down": "1.090.000 ₫",
+        "text": "General information",
+        "new": "New",
+        "bh": "12 Month",
+        "description": "Detailed Description"
+    },
+    {
+        "id": 8,
+        "title": "Product Details of DAREU EK87 Multi-Led Black Computer Keyboard",
+        "p": "DAREU ",
+        "image": "images/keyboard-3.png",
+        "up": "599.000 ₫",
+        "h5": "Keyboard Gaming DAREU EK87 - Black (Multi-LED)",
+        "down": "499.000 ₫",
+        "text": "General information",
+        "new": "New",
+        "bh": "12 Month",
+        "description": "Detailed Description"
+    },
+    {
+        "id": 9,
+        "title": "Product Details Galaxy S24 Ultra",
+        "p": "Samsung",
+        "image": "images/mobiles.png",
+        "up": "35.990.000 ₫",
+        "h5": "Samsung Galaxy S24 Ultra 5G 8GB|256GB SM-S918B Genuine SSVN",
+        "down": "33.990.000 ₫",
+        "description": "Detailed Description"
+    },
+    {
+        "id": 10,
+        "title": "Product Details Samsung Galaxy Z Fold5 5G",
+        "p": "Samsung",
+        "image": "images/mobiles-1.png",
+        "up": "40.990.000 ₫",
+        "h5": "Samsung Galaxy Z Fold 5 (12GB/256GB) Snapdragon 8 Gen 2, màn hình 7.6 (to) - 6.2(nhỏ) Dynamic AMOLED 2X cùng pin 4400 mAh ",
+        "down": "37.790.000 ₫",
+        "description": "Detailed Description"
+    },
+    {
+        "id": 11,
+        "title": "Product Details Samsung Galaxy Z Flip5",
+        "p": "Samsung",
+        "image": "images/mobiles-2.png",
+        "up": "17.990.000₫",
+        "h5": "Samsung Galaxy Z Flip5 256GB/8GB Genuine SM-F731B New Fullbox",
+        "down": "13.990.000 ₫",
+        "description": "Detailed Description"
+    },
+    {
+        "id": 12,
+        "title": "Product Details Iphone 15 ProMax",
+        "p": "Apple",
+        "image": "images/mobiles-3.png",
+        "up": "31.990.000 ₫",
+        "h5": "iPhone 15 Pro Max 256GB | Genuine VN/A ",
+        "down": "34.990.000 ₫",
+        "description": "Detailed Description"
+    },
+    {
+        "id": 13,
+        "title": "Product Details Mouse Bluetooth Silent RaPoo M650 Lucky Cat",
+        "p": "Rapoo",
+        "image": "images/mouse.png",
+        "up": "590.000 ₫",
+        "h5": "Rapoo M650 Lucky Cat Silent Bluetooth Mouse",
+        "down": "490.000 ₫",
+        "description": "Detailed Description"
+    },
+    {
+        "id": 14,
+        "title": "Product Details of Microsoft Arc Wireless Mouse",
+        "p": "Microsoft",
+        "image": "images/mouse-1.png",
+        "up": "2.390.000 ₫",
+        "h5": "Surface Pro Mouse – Arc Mouse",
+        "down": "1.800.000 ₫",
+        "description": "Detailed Description"
+    },
+    {
+        "id": 15,
+        "title": "Product Details of Motospeed F405 Optical Mouse",
+        "p": "Motospeed",
+        "image": "images/mouse-2.png",
+        "up": "400.000 ₫",
+        "h5": "Motospeed F405 Optical Gaming Mouse",
+        "down": "200.000 ₫",
+        "description": "Detailed Description"
+    },
+    {
+        "id": 16,
+        "title": "Product Details of Genuine Apple Magic Mouse 2",
+        "p": "Apple",
+        "image": "images/mouse-3.png",
+        "up": "1.500.000 ₫",
+        "h5": "Chuột Apple Magic Mouse - MK2E3ZA/A",
+        "down": "1.450.000 ₫",
+        "description": "Detailed Description"
+    }
+]

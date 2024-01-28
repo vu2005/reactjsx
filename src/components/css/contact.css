@@ -1,0 +1,218 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+    /* border: 1px solid #000; */
+}
+.contactimages {
+    width: 100%;
+    height: 500px;
+    margin-bottom: 50px;
+}
+.contactimages img {
+    width: 100%;
+    height: 475p;
+}
+.contact {
+    margin: 0 170px;
+}
+
+.form-input-contact {
+    width: 100%;
+    transition: box-shadow 0.5s ease-in-out;
+}
+
+.focus .form-input-contact:hover {
+    box-shadow: 0px 0px 7px #00ffff !important;
+}
+
+.contact-info h2,
+.contact-form h2 {
+    margin: 20px 0;
+}
+.map-contact {
+    margin: 120px 0;
+    text-align: center;
+}
+.contact {
+    /* margin: 0 130px; */
+    justify-content: space-around;
+    display: flex;
+}
+
+.container-contact {
+    width: 100%;
+    max-width: 490px;
+    height: auto;
+    /* border: 1px solid #000; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.contact-input-name {
+    width: calc(
+        60% - 5px
+    ); /* Đặt chiều rộng của mỗi thẻ là 33.333% và trừ đi một khoảng cách (5px) */
+    margin-bottom: 10px; /* Thêm margin-bottom để tạo khoảng trắng dưới */
+}
+
+.contact-input-phone {
+    width: calc(
+        40% - 5px
+    ); /* Điều chỉnh chiều rộng và thêm margin để giữ khoảng cách */
+    /* margin-bottom: 10px; */
+}
+
+.contact-input-notes {
+    width: 100%;
+    margin: 10px 0;
+}
+.contact-input-email {
+    width: 100%;
+    /* margin: 5px 0; */
+}
+.form-input-contact {
+    display: flex;
+    align-items: center;
+    border: 1px solid #adadad;
+}
+.form-input-contact-notes {
+    display: flex;
+    align-items: baseline;
+    border: 1px solid #adadad;
+}
+
+.form-input-contact input {
+    outline: none;
+    border: none;
+    background-color: transparent;
+    font-size: 16px;
+    padding: 10px 5px;
+    width: 100%;
+}
+.form-input-contact-notes textarea {
+    outline: none;
+    border: none;
+    background-color: transparent;
+    font-size: 16px;
+    padding: 10px 5px;
+    width: 100%;
+}
+
+textarea {
+    width: 405px;
+}
+
+.form-input-contact-notes i {
+    padding: 0 8px;
+}
+.form-input-contact i {
+    padding: 0 8px;
+}
+
+.form-input-contact .star i {
+    color: red;
+    padding-right: 10px;
+    font-size: 10px;
+}
+
+.contact-input {
+    margin-right: 10px;
+}
+.custom-btn {
+    width: 130px;
+    height: 40px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+        7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+    outline: none;
+    margin: 10px 180px;
+}
+.btn-3 {
+    background: rgb(0, 172, 238);
+    background: linear-gradient(
+        0deg,
+        rgba(0, 172, 238, 1) 0%,
+        rgba(2, 126, 251, 1) 100%
+    );
+    width: 130px;
+    height: 40px;
+    line-height: 42px;
+    padding: 0;
+    border: none;
+}
+.btn-3 span {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+}
+.btn-3:before,
+.btn-3:after {
+    position: absolute;
+    content: "";
+    right: 0;
+    top: 0;
+    background: rgba(2, 126, 251, 1);
+    transition: all 0.3s ease;
+}
+.btn-3:before {
+    height: 0%;
+    width: 2px;
+}
+.btn-3:after {
+    width: 0%;
+    height: 2px;
+}
+.btn-3:hover {
+    background: transparent;
+    box-shadow: none;
+}
+.btn-3:hover:before {
+    height: 100%;
+}
+.btn-3:hover:after {
+    width: 100%;
+}
+.btn-3 span:hover {
+    color: rgba(2, 126, 251, 1);
+}
+.btn-3 span:before,
+.btn-3 span:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0;
+    background: rgba(2, 126, 251, 1);
+    transition: all 0.3s ease;
+}
+.btn-3 span:before {
+    width: 2px;
+    height: 0%;
+}
+.btn-3 span:after {
+    width: 0%;
+    height: 2px;
+}
+.btn-3 span:hover:before {
+    height: 100%;
+}
+.btn-3 span:hover:after {
+    width: 100%;
+}
+.map-contact {
+    margin: 40px 0;
+}

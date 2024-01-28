@@ -1,0 +1,128 @@
+.navbar {
+    background-color: #f8f9fa;
+    padding: 10px;
+    box-shadow: 0 0 5px 0 #333a41;
+    position: sticky;
+    top: 0;
+}
+
+span {
+    font-size: 30px;
+    margin-right: 20px;
+}
+
+.navbar-brand img {
+    margin-right: 10px;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler-icon {
+    background-color: #007bff;
+}
+
+.navbar-nav .nav-link {
+    color: #343a40;
+    margin-right: 15px;
+}
+
+.navbar-nav .nav-link.active {
+    font-weight: bold;
+}
+
+.icon-bar {
+    display: flex;
+    align-items: center;
+    margin-right: 100px;
+    justify-content: space-between;
+}
+
+.icon-bar a {
+    color: black;
+    margin-right: 30px;
+}
+
+.icon-bar i {
+    font-size: 1.5rem;
+}
+
+.form-input {
+    display: flex;
+    align-items: center;
+    border: 1px solid #333;
+    border-radius: 5px;
+}
+
+.form-input input {
+    outline: none;
+    border: none;
+    background-color: transparent;
+    font-size: 16px;
+    padding: 8px 10px;
+    width: 100%;
+}
+
+.form-input i {
+    color: #555;
+    padding-left: 10px;
+}
+
+.search {
+    display: flex;
+    margin-right: 30px;
+}
+
+.nav-link.active:hover {
+    text-decoration: underline;
+}
+
+.nav-card {
+    position: absolute;
+    top: 20; /* Đặt vị trí bên dưới nav-link */
+    z-index: 1; /* Đặt lớp z-index để nav-card xuất hiện trên cùng */
+    background-color: #fff; /* Màu nền của nav-card */
+    border: 1px solid #ccc; /* Viền xung quanh nav-card */
+    border-radius: 4px; /* Bo tròn góc của nav-card */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Đổ bóng cho nav-card */
+    display: none; /* Mặc định ẩn nav-card */
+}
+
+/* Hiển thị nav-card khi hover trên nav-item */
+.nav-item:hover .nav-card {
+    /* position: absolute; */
+    display: block;
+}
+
+/* Kiểu cho danh sách trong nav-card */
+.nav-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-card ul li {
+    padding: 8px 15px;
+    border-bottom: 1px solid #eee; /* Viền giữa các mục danh sách */
+}
+
+/* Kiểu cho các liên kết trong nav-card */
+.nav-card a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+}
+
+/* Kiểu cho liên kết khi hover trong nav-card */
+.nav-card a:hover {
+    background-color: #f5f5f5;
+}
+/* Add the following CSS to your existing CSS file or style tag */
+.navbar.navbar-expand-lg {
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    z-index: 100;
+}
+

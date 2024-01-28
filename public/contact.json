@@ -1,0 +1,21 @@
+{
+  "contacts": [
+    {
+      "id": "1",
+      "name": "",
+      "phone": "",
+      "email": "",
+      "message": ""
+    },
+    {
+      "id": "745f",
+      "eventName": "FormSubmission",
+      "eventDescription": "User submitted the form",
+      "timestamp": "2024-01-28T09:05:18.390Z",
+      "name": "Nguyễn Như Vũ",
+      "phone": "0384804325",
+      "email": "admin@gmail.com",
+      "message": "hello you"
+    }
+  ]
+}
