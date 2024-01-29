@@ -127,7 +127,6 @@ function App() {
                     <Route path="/compare15" element={<Compare15 />} />
                     <Route path="/compare16" element={<Compare16 />} />
 
-                    {/* <Route path="/compare" element={<Compare />} /> */}
                 </Routes>
             </div>
         </Router>
